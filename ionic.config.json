@@ -1,4 +1,5 @@
 {
-  "name": "ugdradio",
-  "app_id": ""
+  "name": "AplicacionEnBlanco",
+  "app_id": "",
+  "type": "ionic-angular"
 }
