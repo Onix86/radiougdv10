@@ -12,11 +12,22 @@
     <body>
         <button id="playMp3">Play MP3</button>
 		
-		<audio controls autoplay>
+		<!--<audio controls autoplay>
                 <source src="http://70.38.73.27:8005/stream" type="audio/mpeg"></source>
-            </audio>
+            </audio>-->
 		
-		
+		<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Media Streaming
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+ 
+<ion-content padding>
+  <button ion-button full (click)="startAudio()">Start Audio</button>
+  <button ion-button full (click)="stopAudio()" color="danger">Stop Audio</button>
+</ion-content>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
     </body>
